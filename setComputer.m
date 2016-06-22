@@ -1,5 +1,5 @@
 function [left,rght,maxd] = setComputer
-clc; close all; format compact; evalin('base','clear all;');
+clc; close all; format compact; format shortG; evalin('base','clear all;');
 
 desktop = com.mathworks.mde.desk.MLDesktop.getInstance;
 desktopMainFrame = desktop.getMainFrame;
