@@ -1,4 +1,4 @@
-function h = bplot3(xyz,sty)
+function h = bplot3(xyz,sty,name)
 if nargin < 1
     h.scl = 10;
     h.lco = [0,1,1];
@@ -20,4 +20,8 @@ else
 
     xyz = reshape(xyz, n, 3);
     h = plot3(xyz(:,1),xyz(:,2),xyz(:,3), 'color',sty.lco, 'linewidth',sty.lwd, 'linestyle',sty.lst, 'marker',sty.mst, 'markersize',sty.msz, 'MarkerEdgeColor', sty.lco );
+    
+    if nargin == 3;
+        h.DisplayName = name;
+    end
 end
