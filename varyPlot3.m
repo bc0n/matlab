@@ -1,5 +1,5 @@
-%hs = varyPlot3( xyz, sty )
-function h = varyPlot3( xyz, sty )
+%h[] = varyPlot3( xyz, sty )
+function h = varyPlot3( xyz, sty, cols )
 
 if nargin < 1
     h.scl = 10;
@@ -27,10 +27,14 @@ else
         n = 3;
     end
     
-    cind = linspace( .5, 1, n);
-
-    for i = 1:n
-        h(i) = plot3( xyz(i,1),xyz(i,2),xyz(i,3), 'color', sty.lco*cind(i), 'linewidth',sty.lwd, 'linestyle',sty.lst, 'marker',sty.mst, 'markersize',sty.msz, 'MarkerEdgeColor', sty.lco*cind(i) );
+    if nargin == 3;
+        for i = 1:n
+            h(i) = plot3( xyz(i,1),xyz(i,2),xyz(i,3), 'color', cols(i,:), 'linewidth',sty.lwd, 'linestyle',sty.lst, 'marker',sty.mst, 'markersize',sty.msz, 'MarkerEdgeColor', cols(i,:) );
+        end
+    else
+        cind = linspace( .5, 1, n);
+        for i = 1:n
+            h(i) = plot3( xyz(i,1),xyz(i,2),xyz(i,3), 'color', sty.lco*cind(i), 'linewidth',sty.lwd, 'linestyle',sty.lst, 'marker',sty.mst, 'markersize',sty.msz, 'MarkerEdgeColor', sty.lco*cind(i) );
+        end
     end
-    
 end
