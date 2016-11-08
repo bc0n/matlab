@@ -10,16 +10,21 @@ wins = get(0,'MonitorPositions');
 nwins = size(wins,1);
 
 if strcmp(hname, 'BI7')
-    if mainWindowLocation.getX < wins(1,1) % window is on left monitor, put figures on right
-        left = wins(1,:); left(3) = wins(1,3)/2;
-        rght = wins(1,:); rght(3) = wins(1,3)/2; rght(1) = rght(1) + wins(1,3)/2;
-        maxd = wins(1,:);
-    else
-        left = wins(2,:); left(3) = wins(2,3)/2;
-        rght = wins(2,:); rght(3) = wins(2,3)/2; rght(1) = rght(1) + wins(2,3)/2;
-        maxd = wins(2,:);
-        
-        
+    if size(wins,1) == 2;
+        if mainWindowLocation.getX < wins(1,1) % window is on left monitor, put figures on right
+            left = wins(1,:); left(3) = wins(1,3)/2;
+            rght = wins(1,:); rght(3) = wins(1,3)/2; rght(1) = rght(1) + wins(1,3)/2;
+            maxd = wins(1,:);
+        else
+
+                left = wins(2,:); left(3) = wins(2,3)/2;
+                rght = wins(2,:); rght(3) = wins(2,3)/2; rght(1) = rght(1) + wins(2,3)/2;
+                maxd = wins(2,:);
+        end
+    else %single window
+        left = [2     2   958   994];
+        rght = [962     2   958   994];
+        maxd = [1           1        1920        1003];
     end
 elseif strcmp(hname, 'MYNOCK');
 %     if mainWindowLocation.getX < wins(1,1) % window is on the left monitor, figures on right
