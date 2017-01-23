@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomKeySet derivedfrom="Windows" modifieddefault="true">
+   <Context id="Global">
+      <Action id="toggle-typing-mode">
+         <Stroke code="VK_INSERT"/>
+      </Action>
+      <Action id="copy-to-clipboard">
+         <Stroke code="VK_C" ctrl="on"/>
+      </Action>
+   </Context>
+</CustomKeySet>

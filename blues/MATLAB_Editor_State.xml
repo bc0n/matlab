@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Editor version="1.0">
+   <File absPath="C:\Users\ben\ece532\project\ece532_final" lastWrittenTime="1417657694585" name="LassoWarmup.m">
+      <CodeFolds version="1.0">
+         <FoldType name="blockcomments">
+            <Fold endOffset="1983" startOffset="1656" state="collapsed"/>
+         </FoldType>
+      </CodeFolds>
+   </File>
+   <File absPath="C:\Users\ben\Documents\vytronus\20150730_kalmanPhysiologicalMotion" lastWrittenTime="1440464193515" name="isolateProximalMotion.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="C:\Users\ben\Desktop\test_150919_45ellipse500" lastWrittenTime="1442954327834" name="analyze_45ellipse500.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="C:\Users\ben\Desktop\test_150919_45ellipse500" lastWrittenTime="1442954328309" name="TestObj.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="C:\Users\ben\Desktop\test_150922_45ellipse120" lastWrittenTime="1442968463984" name="TestObj.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="C:\Users\ben\Documents\05_trackPTU_kalInNLOPT\test_150923_45circle240_2x" lastWrittenTime="1443119350276" name="TestObj.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="C:\Users\ben\Documents\vytronus\svn\alpha\dev\apps_vas\common\tools\matlab\physiological_motion_filter" lastWrittenTime="1443726268207" name="PhysiologicalMotionFilter.m">
+      <CodeFolds version="1.0">
+         <FoldType name="function">
+            <Fold endOffset="4261" startOffset="2482" state="collapsed"/>
+            <Fold endOffset="11225" startOffset="4345" state="collapsed"/>
+         </FoldType>
+      </CodeFolds>
+   </File>
+   <File absPath="C:\Users\ben\Documents\vytronus\20151001_squareWaveTest" lastWrittenTime="1443801338158" name="squareWaveTest.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="C:\Users\ben\Documents\05_trackPTU_kalInNLOPT\test_150923_45circle240_2x" lastWrittenTime="1444336832975" name="kalman_1d2state.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="C:\Users\ben\Documents\05_trackPTU_kalInNLOPT\test_150923_45circle240_2x" lastWrittenTime="1444772134013" name="analyze_45circle240_2x.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="C:\Users\ben\Documents\05_trackPTU_kalInNLOPT\test_150923_45circle240_2x" lastWrittenTime="1444772134752" name="Inter2D_xyzModel.m">
+      <CodeFolds version="1.0">
+         <FoldType name="function">
+            <Fold endOffset="1230" startOffset="714" state="collapsed"/>
+            <Fold endOffset="2331" startOffset="1437" state="collapsed"/>
+            <Fold endOffset="2490" startOffset="2411" state="collapsed"/>
+            <Fold endOffset="2757" startOffset="2546" state="collapsed"/>
+            <Fold endOffset="2890" startOffset="2812" state="collapsed"/>
+            <Fold endOffset="3471" startOffset="2991" state="collapsed"/>
+            <Fold endOffset="3763" startOffset="3560" state="collapsed"/>
+            <Fold endOffset="4454" startOffset="4374" state="collapsed"/>
+            <Fold endOffset="4609" startOffset="4528" state="collapsed"/>
+            <Fold endOffset="5568" startOffset="4892" state="collapsed"/>
+         </FoldType>
+      </CodeFolds>
+   </File>
+   <File absPath="C:\Users\ben\Documents\20151008_inter2d_forPaper\02_circle45_kalInIK\test_151013_5x5figure8_initial" lastWrittenTime="1445889575566" name="TestObj.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="C:\Users\ben\Documents\20151008_inter2d_forPaper\03_virtualShapes" lastWrittenTime="1446059323959" name="analyze.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="C:\Users\ben\Documents\20151008_inter2d_forPaper\03_virtualShapes" lastWrittenTime="1446059324111" name="TestObj.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="C:\Users\ben\Documents\20151101_paper_toBeNamed\catheterModels" lastWrittenTime="1447294090412" name="catheterModels.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="C:\Users\ben\Documents\20151008_inter2d_forPaper\runServo" lastWrittenTime="1447294092149" name="inter2D_xyzModel.m">
+      <CodeFolds version="1.0">
+         <FoldType name="function">
+            <Fold endOffset="45538" startOffset="45115" state="collapsed"/>
+            <Fold endOffset="46013" startOffset="45590" state="collapsed"/>
+            <Fold endOffset="47157" startOffset="46537" state="collapsed"/>
+            <Fold endOffset="48699" startOffset="47208" state="collapsed"/>
+            <Fold endOffset="49207" startOffset="48807" state="collapsed"/>
+         </FoldType>
+         <FoldType name="if">
+            <Fold endOffset="46476" startOffset="46093" state="collapsed"/>
+         </FoldType>
+      </CodeFolds>
+   </File>
+   <File absPath="C:\Users\ben\Documents\20151101_paper_toBeNamed\catheterModels" lastWrittenTime="1447778508495" name="CatheterModels2D_test.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="C:\Users\ben\Documents\20151101_paper_toBeNamed\figures" lastWrittenTime="1455906713274" name="frfAsDescribed.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="\\byte\bckTB\projects\deskML\20150816_inventor" lastWrittenTime="1456194063769" name="calcBeltLength.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="\\byte\bckTB\collegeClass\1314_g3\me451_kinematicsAndDynamicsOfMachineSystems\P2" lastWrittenTime="1456200107795" name="mech.m">
+      <CodeFolds version="1.0">
+         <FoldType name="function">
+            <Fold endOffset="3141" startOffset="1367" state="collapsed"/>
+            <Fold endOffset="5193" startOffset="3227" state="collapsed"/>
+            <Fold endOffset="6446" startOffset="5260" state="collapsed"/>
+            <Fold endOffset="7128" startOffset="6529" state="collapsed"/>
+            <Fold endOffset="7795" startOffset="7209" state="collapsed"/>
+            <Fold endOffset="8323" startOffset="7880" state="collapsed"/>
+            <Fold endOffset="9291" startOffset="8412" state="collapsed"/>
+            <Fold endOffset="10077" startOffset="9347" state="collapsed"/>
+            <Fold endOffset="10912" startOffset="10140" state="collapsed"/>
+            <Fold endOffset="11241" startOffset="10967" state="collapsed"/>
+            <Fold endOffset="12891" startOffset="11365" state="collapsed"/>
+            <Fold endOffset="13821" startOffset="12951" state="collapsed"/>
+            <Fold endOffset="14474" startOffset="13886" state="collapsed"/>
+            <Fold endOffset="15940" startOffset="14553" state="collapsed"/>
+            <Fold endOffset="16374" startOffset="16030" state="collapsed"/>
+            <Fold endOffset="26482" startOffset="20172" state="collapsed"/>
+            <Fold endOffset="31639" startOffset="26604" state="collapsed"/>
+            <Fold endOffset="33033" startOffset="31699" state="collapsed"/>
+            <Fold endOffset="34551" startOffset="33125" state="collapsed"/>
+            <Fold endOffset="34667" startOffset="34622" state="collapsed"/>
+            <Fold endOffset="34839" startOffset="34766" state="collapsed"/>
+            <Fold endOffset="34953" startOffset="34878" state="collapsed"/>
+         </FoldType>
+         <FoldType name="switch">
+            <Fold endOffset="18498" startOffset="17332" state="collapsed"/>
+            <Fold endOffset="18865" startOffset="18534" state="collapsed"/>
+         </FoldType>
+         <FoldType name="blockcomments">
+            <Fold endOffset="22257" startOffset="20785" state="collapsed"/>
+         </FoldType>
+      </CodeFolds>
+   </File>
+   <File absPath="C:\Users\ben\Documents\20160127_model_catheterModeling\0_revisit451" lastWrittenTime="1456200132213" name="me451_P2_gasForce.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="C:\Users\ben\Documents\20160127_model_catheterModeling\0_revisit451" lastWrittenTime="1456273495554" name="A_curvedTwoMass.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="\\byte\bckTB\projects\20130322_deskML\20150816_inventor" lastWrittenTime="1462927113411" name="calcBeltLength.m">
+      <CodeFolds version="1.0">
+         <FoldType name="cell">
+            <Fold endOffset="87" startOffset="55" state="collapsed"/>
+            <Fold endOffset="6036" startOffset="5211" state="collapsed"/>
+            <Fold endOffset="6110" startOffset="6059" state="collapsed"/>
+         </FoldType>
+      </CodeFolds>
+   </File>
+   <File absPath="C:\Users\ben\Documents\20160127_model_catheterModeling\0_revisit451" lastWrittenTime="1462927113562" name="A_flatTwoMass.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="C:\Users\ben\Documents\20160127_model_catheterModeling\0_revisit451" lastWrittenTime="1462927113868" name="mech2D.m">
+      <CodeFolds version="1.0">
+         <FoldType name="function">
+            <Fold endOffset="6664" startOffset="3716" state="collapsed"/>
+            <Fold endOffset="6924" startOffset="6750" state="collapsed"/>
+            <Fold endOffset="8777" startOffset="7009" state="collapsed"/>
+            <Fold endOffset="10040" startOffset="8832" state="collapsed"/>
+         </FoldType>
+      </CodeFolds>
+   </File>
+   <File absPath="C:\Users\ben\20160401_inter2d_estimate\00_initialTests" lastWrittenTime="1464898941944" name="analyze.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="C:\Users\ben\20160401_inter2d_estimate\04_compareIKSolutionStability\1cpp" lastWrittenTime="1466638525240" name="compareCppIKSolutionStability.m">
+      <CodeFolds version="1.0">
+         <FoldType name="cell">
+            <Fold endOffset="64" startOffset="51" state="collapsed"/>
+            <Fold endOffset="1561" startOffset="73" state="collapsed"/>
+         </FoldType>
+      </CodeFolds>
+   </File>
+   <File absPath="C:\Users\ben\GitHub\matlab" lastWrittenTime="1466638525360" name="setComputer.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="C:\Users\ben\20160401_inter2d_estimate\06_parameterLoop" lastWrittenTime="1467333293441" name="compare.m">
+      <CodeFolds version="1.0">
+         <FoldType name="cell">
+            <Fold endOffset="99" startOffset="65" state="collapsed"/>
+         </FoldType>
+      </CodeFolds>
+   </File>
+   <File absPath="C:\Users\ben\20160401_inter2d_estimate\06_parameterLoop" lastWrittenTime="1467333294039" name="compareModelAbility.m">
+      <CodeFolds version="1.0">
+         <FoldType name="cell">
+            <Fold endOffset="63" startOffset="50" state="collapsed"/>
+            <Fold endOffset="307" startOffset="72" state="collapsed"/>
+            <Fold endOffset="2456" startOffset="330" state="collapsed"/>
+            <Fold endOffset="3451" startOffset="2485" state="collapsed"/>
+            <Fold endOffset="4318" startOffset="4165" state="collapsed"/>
+         </FoldType>
+      </CodeFolds>
+   </File>
+   <File absPath="C:\Users\ben\20160401_inter2d_estimate\03_parameterJacobian" lastWrittenTime="1467760255437" name="howDoesPJacVary.m">
+      <CodeFolds version="1.0">
+         <FoldType name="cell">
+            <Fold endOffset="60" startOffset="28" state="collapsed"/>
+         </FoldType>
+      </CodeFolds>
+   </File>
+   <File absPath="C:\Users\ben\GitHub\ICRMKinematics\matlab" lastWrittenTime="1467762103260" name="inter2D.m">
+      <CodeFolds version="1.0">
+         <FoldType name="function">
+            <Fold endOffset="1603" startOffset="753" state="collapsed"/>
+            <Fold endOffset="1834" startOffset="1663" state="collapsed"/>
+            <Fold endOffset="1957" startOffset="1916" state="collapsed"/>
+            <Fold endOffset="2067" startOffset="2015" state="collapsed"/>
+            <Fold endOffset="2158" startOffset="2109" state="collapsed"/>
+            <Fold endOffset="2615" startOffset="2473" state="collapsed"/>
+            <Fold endOffset="2794" startOffset="2656" state="collapsed"/>
+            <Fold endOffset="4932" startOffset="4831" state="collapsed"/>
+            <Fold endOffset="6597" startOffset="5148" state="collapsed"/>
+            <Fold endOffset="7092" startOffset="6688" state="collapsed"/>
+            <Fold endOffset="8719" startOffset="7354" state="collapsed"/>
+            <Fold endOffset="9646" startOffset="9554" state="collapsed"/>
+            <Fold endOffset="9826" startOffset="9722" state="collapsed"/>
+            <Fold endOffset="10620" startOffset="9968" state="collapsed"/>
+            <Fold endOffset="11382" startOffset="10745" state="collapsed"/>
+            <Fold endOffset="12791" startOffset="11554" state="collapsed"/>
+            <Fold endOffset="16136" startOffset="12846" state="collapsed"/>
+            <Fold endOffset="16554" startOffset="16449" state="collapsed"/>
+            <Fold endOffset="16677" startOffset="16581" state="collapsed"/>
+            <Fold endOffset="16800" startOffset="16704" state="collapsed"/>
+            <Fold endOffset="16914" startOffset="16827" state="collapsed"/>
+            <Fold endOffset="17016" startOffset="16941" state="collapsed"/>
+            <Fold endOffset="17118" startOffset="17043" state="collapsed"/>
+            <Fold endOffset="17703" startOffset="17150" state="collapsed"/>
+            <Fold endOffset="17946" startOffset="17759" state="collapsed"/>
+            <Fold endOffset="18567" startOffset="18021" state="collapsed"/>
+            <Fold endOffset="19795" startOffset="18599" state="collapsed"/>
+            <Fold endOffset="20134" startOffset="19837" state="collapsed"/>
+            <Fold endOffset="20390" startOffset="20178" state="collapsed"/>
+            <Fold endOffset="20556" startOffset="20426" state="collapsed"/>
+            <Fold endOffset="21048" startOffset="20636" state="collapsed"/>
+            <Fold endOffset="21408" startOffset="21144" state="collapsed"/>
+            <Fold endOffset="21863" startOffset="21449" state="collapsed"/>
+            <Fold endOffset="22329" startOffset="21915" state="collapsed"/>
+            <Fold endOffset="22795" startOffset="22381" state="collapsed"/>
+            <Fold endOffset="23464" startOffset="22844" state="collapsed"/>
+            <Fold endOffset="25006" startOffset="23515" state="collapsed"/>
+            <Fold endOffset="25514" startOffset="25114" state="collapsed"/>
+            <Fold endOffset="25756" startOffset="25578" state="collapsed"/>
+         </FoldType>
+      </CodeFolds>
+   </File>
+   <File absPath="C:\Users\ben\Dropbox\matlab" lastWrittenTime="1467768409458" name="rdir.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="C:\Users\ben\20160401_inter2d_estimate\06_parameterLoop\4_11aUpdated" lastWrittenTime="1467815919399" name="comparePoseToMeasured.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="C:\Users\ben\20160401_inter2d_estimate\06_parameterLoop\4_11aUpdated\10_twoSpeeds" lastWrittenTime="1467820128324" name="comparePoseToMeasured.m">
+      <CodeFolds version="1.0">
+         <FoldType name="cell">
+            <Fold endOffset="75" startOffset="62" state="collapsed"/>
+            <Fold endOffset="3272" startOffset="2708" state="collapsed"/>
+         </FoldType>
+      </CodeFolds>
+   </File>
+   <File absPath="C:\Users\ben\20160401_inter2d_estimate\06_parameterLoop\5_acrossTheWorkspace" lastWrittenTime="1467837433126" name="comparePoseToMeasured.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="C:\Users\ben\GitHub\ICRMKinematics\matlab" lastWrittenTime="1467839500318" name="inter2D_kn11A.m">
+      <CodeFolds version="1.0">
+         <FoldType name="function">
+            <Fold endOffset="3041" startOffset="2491" state="collapsed"/>
+            <Fold endOffset="3660" startOffset="3103" state="collapsed"/>
+         </FoldType>
+      </CodeFolds>
+   </File>
+   <File absPath="C:\Users\ben\20160401_inter2d_estimate\09_parameterLoopFullIK" lastWrittenTime="1467998295593" name="comparePoseToMeasured.m">
+      <CodeFolds version="1.0">
+         <FoldType name="cell">
+            <Fold endOffset="75" startOffset="62" state="collapsed"/>
+            <Fold endOffset="5327" startOffset="3585" state="collapsed"/>
+            <Fold endOffset="5931" startOffset="5367" state="collapsed"/>
+         </FoldType>
+      </CodeFolds>
+   </File>
+   <File absPath="C:\Users\ben\GitHub\ICRMKinematics\matlab" lastWrittenTime="1467998297129" name="readDatXML.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="C:\Users\ben\Documents\20151101_paper_toBeNamed\figures" lastWrittenTime="1468263774161" name="TestObj.m">
+      <CodeFolds version="1.0">
+         <FoldType name="function">
+            <Fold endOffset="1779" startOffset="262" state="collapsed"/>
+            <Fold endOffset="3461" startOffset="1826" state="collapsed"/>
+            <Fold endOffset="13410" startOffset="3509" state="collapsed"/>
+            <Fold endOffset="15537" startOffset="14573" state="collapsed"/>
+            <Fold endOffset="18166" startOffset="15646" state="collapsed"/>
+            <Fold endOffset="19673" startOffset="18282" state="collapsed"/>
+            <Fold endOffset="20615" startOffset="19780" state="collapsed"/>
+         </FoldType>
+      </CodeFolds>
+   </File>
+   <File absPath="C:\Users\ben\20160401_inter2d_estimate\10_windowed" lastWrittenTime="1468456465496" name="compare.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="C:\Users\ben\vytronus\svn\alpha\alphaTOOLS\matlab\nav\performance_metrics" lastWrittenTime="1468457057207" name="shortVAS.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="C:\Users\ben\vytronus\svn\alpha\alphaTOOLS\matlab\nav\profile_algs_postproc\@PostProcAcquisition" lastWrittenTime="1468457956871" name="calculateSpeedAlongPath.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="C:\Users\ben\vytronus\svn\alpha\alphaTOOLS\matlab\nav\profile_algs_postproc\@PostProcAcquisition" lastWrittenTime="1468457956887" name="PostProcAcquisition.m">
+      <CodeFolds version="1.0">
+         <FoldType name="function">
+            <Fold endOffset="2148" startOffset="1664" state="collapsed"/>
+            <Fold endOffset="2989" startOffset="2549" state="collapsed"/>
+            <Fold endOffset="3305" startOffset="3026" state="collapsed"/>
+            <Fold endOffset="3594" startOffset="3360" state="collapsed"/>
+            <Fold endOffset="4263" startOffset="3952" state="collapsed"/>
+            <Fold endOffset="4900" startOffset="4348" state="collapsed"/>
+            <Fold endOffset="5087" startOffset="4958" state="collapsed"/>
+            <Fold endOffset="5319" startOffset="5150" state="collapsed"/>
+            <Fold endOffset="5735" startOffset="5382" state="collapsed"/>
+            <Fold endOffset="6636" startOffset="6451" state="collapsed"/>
+            <Fold endOffset="6938" startOffset="6734" state="collapsed"/>
+            <Fold endOffset="8715" startOffset="7405" state="collapsed"/>
+            <Fold endOffset="9601" startOffset="8903" state="collapsed"/>
+            <Fold endOffset="11232" startOffset="9719" state="collapsed"/>
+            <Fold endOffset="12296" startOffset="11360" state="collapsed"/>
+            <Fold endOffset="13897" startOffset="12585" state="collapsed"/>
+            <Fold endOffset="14285" startOffset="13997" state="collapsed"/>
+         </FoldType>
+      </CodeFolds>
+   </File>
+   <File absPath="C:\Users\ben\vytronus\svn\alpha\alphaTOOLS\matlab\nav\profile_algs\@Profile" lastWrittenTime="1468457956904" name="Profile.m">
+      <CodeFolds version="1.0">
+         <FoldType name="function">
+            <Fold endOffset="3589" startOffset="3086" state="collapsed"/>
+            <Fold endOffset="4574" startOffset="3970" state="collapsed"/>
+            <Fold endOffset="4883" startOffset="4644" state="collapsed"/>
+            <Fold endOffset="5898" startOffset="4956" state="collapsed"/>
+            <Fold endOffset="7230" startOffset="6053" state="collapsed"/>
+            <Fold endOffset="8437" startOffset="7279" state="collapsed"/>
+            <Fold endOffset="8924" startOffset="8503" state="collapsed"/>
+            <Fold endOffset="19621" startOffset="9617" state="collapsed"/>
+            <Fold endOffset="21127" startOffset="21065" state="collapsed"/>
+            <Fold endOffset="21266" startOffset="21158" state="collapsed"/>
+            <Fold endOffset="21347" startOffset="21297" state="collapsed"/>
+            <Fold endOffset="24246" startOffset="23958" state="collapsed"/>
+            <Fold endOffset="25353" startOffset="25117" state="collapsed"/>
+            <Fold endOffset="28290" startOffset="25474" state="collapsed"/>
+            <Fold endOffset="28713" startOffset="28416" state="collapsed"/>
+            <Fold endOffset="29016" startOffset="28816" state="collapsed"/>
+            <Fold endOffset="29640" startOffset="29115" state="collapsed"/>
+            <Fold endOffset="30443" startOffset="29792" state="collapsed"/>
+            <Fold endOffset="31345" startOffset="30575" state="collapsed"/>
+            <Fold endOffset="31856" startOffset="31495" state="collapsed"/>
+            <Fold endOffset="32663" startOffset="31988" state="collapsed"/>
+            <Fold endOffset="32840" startOffset="32774" state="collapsed"/>
+            <Fold endOffset="33387" startOffset="32909" state="collapsed"/>
+            <Fold endOffset="33978" startOffset="33463" state="collapsed"/>
+            <Fold endOffset="34560" startOffset="34120" state="collapsed"/>
+            <Fold endOffset="35072" startOffset="34667" state="collapsed"/>
+            <Fold endOffset="35250" startOffset="35173" state="collapsed"/>
+            <Fold endOffset="35908" startOffset="35780" state="collapsed"/>
+            <Fold endOffset="36110" startOffset="35983" state="collapsed"/>
+            <Fold endOffset="36309" startOffset="36182" state="collapsed"/>
+            <Fold endOffset="37104" startOffset="37047" state="collapsed"/>
+            <Fold endOffset="37206" startOffset="37147" state="collapsed"/>
+            <Fold endOffset="37882" startOffset="37371" state="collapsed"/>
+            <Fold endOffset="38445" startOffset="37955" state="collapsed"/>
+            <Fold endOffset="39015" startOffset="38518" state="collapsed"/>
+            <Fold endOffset="39694" startOffset="39099" state="collapsed"/>
+            <Fold endOffset="40351" startOffset="39779" state="collapsed"/>
+            <Fold endOffset="42569" startOffset="41462" state="collapsed"/>
+            <Fold endOffset="50854" startOffset="46769" state="collapsed"/>
+            <Fold endOffset="56929" startOffset="50917" state="collapsed"/>
+         </FoldType>
+      </CodeFolds>
+   </File>
+   <File absPath="C:\Users\ben\vytronus\svn\alpha\alphaTOOLS\matlab\nav\profile_algs_postproc\@PostProcProfile" lastWrittenTime="1468457956926" name="PostProcProfile.m">
+      <CodeFolds version="1.0">
+         <FoldType name="function">
+            <Fold endOffset="1279" startOffset="521" state="collapsed"/>
+            <Fold endOffset="1918" startOffset="1719" state="collapsed"/>
+            <Fold endOffset="2451" startOffset="2036" state="collapsed"/>
+            <Fold endOffset="2760" startOffset="2556" state="collapsed"/>
+            <Fold endOffset="3429" startOffset="2842" state="collapsed"/>
+            <Fold endOffset="3696" startOffset="3480" state="collapsed"/>
+            <Fold endOffset="3943" startOffset="3755" state="collapsed"/>
+            <Fold endOffset="4380" startOffset="4265" state="collapsed"/>
+         </FoldType>
+      </CodeFolds>
+   </File>
+</Editor>

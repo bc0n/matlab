@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<history>
+<session>
+<command time_stamp="1499b677aaa">%-- 11/10/2014 2:31 PM --%</command>
+<command execution_time="509">readAcquisitionBinary</command>
+</session>
+<session>
+<command time_stamp="1499cc0604d">%-- 11/10/2014 8:48 PM --%</command>
+<command execution_time="5447">warmup</command>
+</session>
+<session>
+<command time_stamp="149a566f504">%-- 11/12/2014 1:07 PM --%</command>
+<command execution_time="1019">readAcquisitionBinary</command>
+</session>
+<session>
+<command time_stamp="149abe791c2">%-- 11/13/2014 7:25 PM --%</command>
+<command execution_time="678">ece532_conrad_h8</command>
+<command execution_time="34">7/45*[1;-2]</command>
+<command execution_time="144">ece532_conrad_h8</command>
+<command execution_time="46">b</command>
+<command execution_time="21">bSE</command>
+<command execution_time="158" repeat="2">ece532_conrad_h8</command>
+<command execution_time="1818">fitcsvm(A(:,1), b)</command>
+<command execution_time="90">svmm = fitcsvm(A(:,1), b)</command>
+<command execution_time="75">predict(svmm, A(:,1))</command>
+<command execution_time="43">clc</command>
+<command execution_time="57">max([zeros(4,1),A*xSE],2)</command>
+<command execution_time="34">max([zeros(4,1),A*xSE],1)</command>
+<command execution_time="41">[zeros(4,1),A*xSE]</command>
+<command execution_time="36">max([zeros(4,1),A*xSE],[],1)</command>
+<command execution_time="39">max([zeros(4,1),A*xSE],[],2)</command>
+<command execution_time="34">max([zeros(4,1),1-A*xSE],[],2)</command>
+<command execution_time="39">sum(max([zeros(4,1),1-A*xSE],[],2))</command>
+<command error="true" execution_time="390">xSe</command>
+<command execution_time="47">xSE</command>
+<command error="true" execution_time="475">x = fminunc(hloss, rand(2,1))</command>
+<command execution_time="1198">ece532_conrad_h8</command>
+<command execution_time="30">lastwarn</command>
+<command execution_time="21">[a,b] = lastwarn</command>
+<command error="true" execution_time="560">warning('off,'optim:fminunc:SwitchingMethod')</command>
+<command execution_time="21">warning('off','optim:fminunc:SwitchingMethod')</command>
+<command execution_time="980">ece532_conrad_h8</command>
+<command execution_time="172">xHL = fminunc(hloss, rand(2,1));</command>
+<command error="true" execution_time="120">xHL = fminunc(hloss, rand(2,1),'Display','off');</command>
+<command execution_time="75">optimset</command>
+<command execution_time="92">optimset('Display','off')</command>
+<command error="true" execution_time="53">optimset('fminunc','Display','off')</command>
+<command execution_time="968" repeat="2">ece532_conrad_h8</command>
+<command execution_time="27">bHL = sign(A*xHL)</command>
+<command execution_time="21">xHL</command>
+<command execution_time="29">xSE</command>
+<command execution_time="949" repeat="2">ece532_conrad_h8</command>
+<command execution_time="48">b</command>
+<command error="true" execution_time="34">b*A'*xSE</command>
+<command error="true" execution_time="34">b*A(:,1)</command>
+<command execution_time="961">ece532_conrad_h8</command>
+<command error="true" execution_time="695">al = (A*A' + lam*eye(m)) \ b</command>
+<command execution_time="976">ece532_conrad_h8</command>
+<command execution_time="30">al</command>
+<command execution_time="917">ece532_conrad_h8</command>
+<command execution_time="46">(A*A' + lam*eye(m))</command>
+<command error="true" execution_time="23">disp(['For the dual solution, alpha = [',num2str(al'),']');</command>
+<command execution_time="33">disp(['For the dual solution, alpha = [',num2str(al'),']']);</command>
+<command execution_time="66">disp(['For the dual solution, alpha = [',num2str(al','%5.2f'),']']);</command>
+<command execution_time="31">disp(['For the dual solution, alpha = [',num2str(al','%05.2f'),']']);</command>
+<command execution_time="30">disp(['For the dual solution, alpha = [',num2str(al',' %5.2f'),']']);</command>
+<command error="true" execution_time="5168">ece532_conrad_h8</command>
+<command execution_time="31">col</command>
+<command execution_time="31">col(i,:)</command>
+<command execution_time="36">h = plot(xHL(1),xHL(2),'o','color',col(i,:),'markerfacecolor',col(i,:))</command>
+<command execution_time="503">close all;</command>
+<command execution_time="141">close all</command>
+<command execution_time="66">svmm</command>
+<command execution_time="76">svmm.Alpha</command>
+<command execution_time="45">svmm</command>
+<command execution_time="49">size(A)</command>
+<command execution_time="44">svmm.ScaleData</command>
+<command execution_time="748">svmm = svmtrain(A, b');</command>
+<command error="true" execution_time="62">bSVM = svmclassify(svmm, b)</command>
+<command error="true" execution_time="4066">ece532_conrad_h8</command>
+<command execution_time="29">size(A)</command>
+<command execution_time="30">size(b)</command>
+<command execution_time="764">svmm = svmtrain(A, b');</command>
+<command error="true" execution_time="36">bSVM = svmclassify(svmm, b')</command>
+<command error="true" execution_time="35">bSVM = svmclassify(svmm, b)</command>
+<command error="true" execution_time="35">bSVM = svmclassify(svmm, b')</command>
+<command execution_time="1697" repeat="2">svmm = svmtrain(A, b','showplot',1);</command>
+<command execution_time="978">svmm = svmtrain(A, b','showplot',1,'kernel_function','rbf'); %gaussian</command>
+<command execution_time="212">close all</command>
+<command execution_time="1229">svmm = svmtrain(A, b','showplot',1,'kernel_function','rbf'); %gaussian</command>
+</session>
+<session>
+<command time_stamp="149c44fb9c7">%-- 11/18/2014 1:09 PM --%</command>
+<command execution_time="5883">figure; hold on;</command>
+<command execution_time="111">plot3([-72.89,-62.35],[1.34,-3.574],[-189.6,192.4],'k.-')</command>
+<command execution_time="54">grid on;</command>
+<command execution_time="65">plot3([-72.89--2.986],[1.34-1.39],[-189.6-.794],'bo')</command>
+<command execution_time="39">plot3([-72.89--2.986],[1.34-1.39],[-189.6-.794],'bs')</command>
+<command execution_time="33">plot3([-72.89--2.986],[1.34-1.39],[-189.6-.794],'b.')</command>
+<command execution_time="31">plot3([-62.35--1.90],[-3.574-.88],[192.4-.505],'rp')</command>
+<command execution_time="30">plot3([-62.35+-1.90],[-3.574+.88],[192.4+.505],'mp')</command>
+</session>
+<session>
+<command time_stamp="149c8b76464">%-- 11/19/2014 9:41 AM --%</command>
+<command error="true" execution_time="1777" repeat="4">createPhaseIndexed</command>
+<command execution_time="28">pwd</command>
+<command error="true" execution_time="394">didr</command>
+<command execution_time="30">dir</command>
+<command execution_time="23">fopen('MapCoordinates_092414-115717.log')</command>
+<command error="true" execution_time="11622" repeat="2">createPhaseIndexed</command>
+<command execution_time="352" repeat="2">close all</command>
+<command execution_time="9363" repeat="2">createPhaseIndexed</command>
+<command execution_time="535">close all</command>
+<command execution_time="27">a1</command>
+<command execution_time="38">a1.xyz(1:3,:)</command>
+<command execution_time="7853">createPhaseIndexed</command>
+<command execution_time="508">close all</command>
+<command execution_time="34">sqrt( sum(a1.xyz(1,:)-a2.xyz(1,:).^2))</command>
+<command execution_time="28">sqrt( (sum(a1.xyz(1,:)-a2.xyz(1,:)).^2))</command>
+<command execution_time="39">a1.xyz(1,:)</command>
+<command execution_time="31">a1.xyz(1,:) - a2.xyz(1,:)</command>
+<command execution_time="33">a2.xyz(1,:)</command>
+<command execution_time="1451" repeat="2">createPhaseIndexed</command>
+<command error="true" execution_time="27">a1.xyz(1,:)</command>
+</session>
+<session>
+<command time_stamp="149c8d8194a">%-- 11/19/2014 10:17 AM --%</command>
+<command execution_time="1359">createPhaseIndexed</command>
+<command execution_time="44">clc</command>
+<command execution_time="1247">createPhaseIndexed</command>
+<command error="true" execution_time="40">a1.xyz(1,:)</command>
+<command error="true" execution_time="32">a2.xyz(1,:)</command>
+<command execution_time="37">lastwarn</command>
+<command execution_time="27">a1.xyz(1,1:3)</command>
+<command execution_time="25">a2.xyz(1,1:3)</command>
+<command execution_time="30">a1.xyz(1,1:3) - a2.xyz(1,1:3)</command>
+<command execution_time="25">( a1.xyz(1,1:3) - a2.xyz(1,1:3) ).^2</command>
+<command execution_time="23">sum(( a1.xyz(1,1:3) - a2.xyz(1,1:3) ).^2)</command>
+<command execution_time="26">sqrt(sum(( a1.xyz(1,1:3) - a2.xyz(1,1:3) ).^2))</command>
+<command execution_time="1062">createPhaseIndexed</command>
+<command execution_time="25">sqrt(sum(( a1.xyz(1,1:3) - a2.xyz(1,1:3) ).^2))</command>
+<command execution_time="101">for i = 1:100; sqrt(sum(( a1.xyz(i,1:3) - a2.xyz(i,1:3) ).^2)), end</command>
+<command execution_time="27">i = 1; sqrt(sum(( a1.xyz(i,1:3) - a2.xyz(i,1:3) ).^2))</command>
+<command execution_time="13125" repeat="4">createPhaseIndexed</command>
+<command execution_time="490">close all</command>
+<command execution_time="8112" repeat="3">createPhaseIndexed</command>
+<command execution_time="515">close all</command>
+<command execution_time="8829">createPhaseIndexed</command>
+</session>
+<session>
+<command time_stamp="149c8fc4d91">%-- 11/19/2014 10:56 AM --%</command>
+<command execution_time="14025">createPhaseIndexed</command>
+</session>
+<session>
+<command time_stamp="149c90e19e0">%-- 11/19/2014 11:16 AM --%</command>
+<command execution_time="2293">readAcquisitionBinary</command>
+</session>
+<session>
+<command time_stamp="149ec8f938c">%-- 11/26/2014 8:44 AM --%</command>
+<command execution_time="5648">cluster_data</command>
+<command execution_time="47">A</command>
+<command execution_time="32">A'</command>
+<command execution_time="31">size(A)</command>
+<command execution_time="405" repeat="4">ece532_h9_conrad</command>
+<command execution_time="16">L</command>
+<command execution_time="16">L'</command>
+<command execution_time="16">C</command>
+<command execution_time="1763">pdepoly([-1 0 0 1 1 -1],[0 0 1 1 -1 -1]);</command>
+<command execution_time="47">(L == 3).*(1:n)</command>
+<command error="true" execution_time="561">ece532_h9_conrad</command>
+<command execution_time="16">col(:,i)</command>
+<command error="true" execution_time="499">ece532_h9_conrad</command>
+<command execution_time="31">ind</command>
+<command error="true" execution_time="31">A(1,ind)</command>
+<command execution_time="16">squeeze(A)</command>
+<command execution_time="16">squeeze(ind)</command>
+<command execution_time="546" repeat="4">ece532_h9_conrad</command>
+<command execution_time="16">h = scatter(A(1,ind),A(2,ind),'+');</command>
+<command execution_time="31">h</command>
+<command execution_time="32">get(h)</command>
+<command error="true" execution_time="530">ece532_h9_conrad</command>
+<command error="true" execution_time="15">col(:,i)</command>
+<command execution_time="16">col(i,:)</command>
+<command execution_time="374" repeat="3">ece532_h9_conrad</command>
+<command execution_time="16">A(2,:)</command>
+<command execution_time="16">A(:,1)</command>
+<command execution_time="437">ece532_h9_conrad</command>
+<command execution_time="93">W</command>
+<command execution_time="47">sum(W,2)</command>
+<command execution_time="70">diag(sum(W,2))</command>
+<command execution_time="126">close</command>
+<command execution_time="20">clc</command>
+<command execution_time="67">S</command>
+<command execution_time="31">diag(S)</command>
+<command execution_time="100">V</command>
+<command execution_time="45">sval = diag(S)</command>
+<command error="true" execution_time="201">svals(end)</command>
+<command execution_time="18">sval(end)</command>
+<command error="true" execution_time="36">ind = find(sval == 0,'last')</command>
+<command execution_time="18">ind = find(sval ~= 0,1,'last')</command>
+<command execution_time="38">v2 = V(:,ind)</command>
+<command execution_time="18">A(:,i)</command>
+<command execution_time="18">size(V)</command>
+<command execution_time="23">size(U)</command>
+<command execution_time="18">size(L)</command>
+<command execution_time="20">size(Lg)</command>
+<command execution_time="154">[vec,val] = eig(Lg)</command>
+<command execution_time="65">vec</command>
+<command execution_time="20">diag(val)</command>
+<command execution_time="33">vec(:,1)</command>
+<command execution_time="37">vec(:,2)</command>
+<command execution_time="36">v2 = V(:,ind)</command>
+<command execution_time="23">ind = find(sval ~= 0,2,'last')</command>
+<command execution_time="19">v2 = V(:,ind(1))</command>
+<command execution_time="415" repeat="3">ece532_h9_conrad</command>
+<command execution_time="27">T = U(:,n:(n-k));</command>
+<command execution_time="31">T</command>
+<command execution_time="41" repeat="2">close</command>
+<command execution_time="13">n</command>
+<command execution_time="18">n-k</command>
+<command execution_time="18">n:n-k</command>
+<command execution_time="18">n:(n-k)</command>
+<command execution_time="19">n:-1:(n-k)</command>
+<command execution_time="17">n:-1:n-k</command>
+<command execution_time="637" repeat="3">ece532_h9_conrad</command>
+</session>
+<session>
+<command time_stamp="149ece53c4d">%-- 11/26/2014 10:18 AM --%</command>
+<command execution_time="2652">ece532_h9_conrad</command>
+<command execution_time="109">close all</command>
+</session>
+<session>
+<command time_stamp="149edd2ca4a">%-- 11/26/2014 2:37 PM --%</command>
+<command execution_time="47">3^(-.5/1)*(1/1.5)^(1/.5)*5/16.5</command>
+<command execution_time="63">7e-2</command>
+<command execution_time="62">3^(-.5/1)*(1/3)^(1/.5)*5/16.5</command>
+</session>
+<session>
+<command time_stamp="14a06f1a2cd">%-- 12/1/2014 11:41 AM --%</command>
+<command execution_time="511660" repeat="2">LassoWarmup</command>
+<command execution_time="252">format compact</command>
+<command execution_time="224">511/60</command>
+</session>
+<session>
+<command time_stamp="14a072577cc">%-- 12/1/2014 12:38 PM --%</command>
+<command execution_time="406">LassoWarmup</command>
+<command execution_time="31">format compact</command>
+<command execution_time="47">salaryTrain</command>
+<command execution_time="47">salaryTest</command>
+<command execution_time="390">train</command>
+<command execution_time="47">size(train)</command>
+<command execution_time="47">size(test)</command>
+<command execution_time="46">descTrain</command>
+<command error="true" execution_time="795">desctest</command>
+<command execution_time="47">descTest</command>
+<command error="true" execution_time="203">desctest</command>
+<command execution_time="31">descTrain</command>
+<command error="true" execution_time="47">descTrain == descTest</command>
+<command error="true" execution_time="46">descTrain{1}</command>
+<command error="true" execution_time="31">descTrain(1)</command>
+<command execution_time="62">descTrain.FullDescription</command>
+<command error="true" execution_time="47">descTrain.FullDescription == descTest.FullDescription</command>
+<command execution_time="78">descTrain.FullDescription{1} == descTest.FullDescription{1}</command>
+<command execution_time="12043">LassoWarmup</command>
+<command execution_time="7612">words</command>
+<command execution_time="2980">keywords</command>
+<command execution_time="405">keywords{3431}</command>
+<command execution_time="406">keywords{3432}</command>
+<command error="true" execution_time="2494">LassoWarmup.m</command>
+<command execution_time="2017852" repeat="3">LassoWarmup</command>
+<command execution_time="15">clc</command>
+<command execution_time="16">whos</command>
+<command execution_time="78">xhat</command>
+<command execution_time="78">a = sort(xhat)</command>
+<command execution_time="15">a(1:100)</command>
+<command execution_time="608">words</command>
+<command execution_time="125252" repeat="5">LassoWarmup</command>
+<command execution_time="31">clc</command>
+<command execution_time="78">words(find(sort(abs(xhat)) &gt; eps))</command>
+<command execution_time="46">sort(abs(xhat))</command>
+<command execution_time="62">words(find(sort(abs(xhat)) &gt; eps))</command>
+<command execution_time="16">size(xhat)</command>
+<command execution_time="16">size(words)</command>
+<command execution_time="124472">LassoWarmup</command>
+<command execution_time="63">sort(abs(xhat),'descend')</command>
+<command execution_time="15">clc</command>
+<command execution_time="484">freq_matrixTrain</command>
+<command execution_time="31">lambda</command>
+<command execution_time="32">salaryTrain</command>
+<command execution_time="31">maxIter</command>
+<command execution_time="37015" repeat="4">LassoWarmup</command>
+<command error="true" execution_time="43">Lasso</command>
+<command execution_time="11589" repeat="4">LassoWarmup</command>
+<command execution_time="3314">warmup</command>
+<command execution_time="39">A</command>
+<command execution_time="44">comb</command>
+<command execution_time="340">warmup</command>
+<command execution_time="18">A</command>
+<command execution_time="18">A'</command>
+<command execution_time="27">comb</command>
+<command execution_time="48">[comb, num2str(A')]</command>
+<command error="true" execution_time="22">[comb', num2str(A')]</command>
+<command execution_time="21">comb'</command>
+<command execution_time="27">num2str(A')</command>
+<command error="true" execution_time="18">[comb', A']</command>
+<command execution_time="17">size(comb)</command>
+<command execution_time="17">size(A)</command>
+<command execution_time="34">comb(1)</command>
+<command execution_time="18">A(:,1)</command>
+<command error="true" execution_time="235">warmup</command>
+<command execution_time="19">comb{1}</command>
+<command execution_time="227">warmup</command>
+<command execution_time="17">m</command>
+<command batch="1">for i = 1:n</command>
+<command batch="1">fprintf('%d %d %s\n',A(1,i),A(2,i), comb{i});</command>
+<command batch="1" execution_time="37">end</command>
+<command execution_time="447" repeat="5">warmup</command>
+</session>
+<session>
+<command time_stamp="14a0804e5d6">%-- 12/1/2014 4:42 PM --%</command>
+</session>
+<session>
+<command time_stamp="14a08075939">%-- 12/1/2014 4:45 PM --%</command>
+<command batch="2">LassoWarmup</command>
+<command batch="2" execution_time="12636">LassoWarmup</command>
+<command execution_time="47">clc</command>
+<command execution_time="312" repeat="2">fullLab</command>
+<command execution_time="31">bhat</command>
+<command execution_time="31">A3</command>
+</session>
+<session>
+<command time_stamp="14a0dec2bcc">%-- 12/2/2014 8:13 PM --%</command>
+<command execution_time="4078">fig = figure('Name','3D Frames'); hold on;</command>
+<command execution_time="61">get(gcf,'Position')</command>
+<command error="true" execution_time="680" repeat="2">plotCoordinateFrames</command>
+<command execution_time="30">grid on</command>
+<command execution_time="760" repeat="3">plotCoordinateFrames</command>
+<command execution_time="100">get(gca)</command>
+<command error="true" execution_time="43">set(gca,'ydir','reversed');</command>
+<command execution_time="43">set(gca,'ydir','reverse');</command>
+<command error="true" execution_time="59438" repeat="3">LassoWarmup</command>
+<command error="true" execution_time="79">[abs(y) - alpha*lambda,zeros(size(A,2)]</command>
+<command execution_time="89">[abs(y) - alpha*lambda,zeros(size(A,2),1)]</command>
+<command execution_time="28">max([abs(y) - alpha*lambda,zeros(size(A,2),1)])</command>
+<command execution_time="76">max([abs(y) - alpha*lambda,zeros(size(A,2),1)],2)</command>
+<command execution_time="110">max([abs(y) - alpha*lambda,zeros(size(A,2),1)],1)</command>
+<command execution_time="95">[abs(y) - alpha*lambda,zeros(size(A,2),1)]</command>
+<command execution_time="35">max([abs(y) - alpha*lambda,zeros(size(A,2),1)],[],1)</command>
+<command execution_time="62">max([abs(y) - alpha*lambda,zeros(size(A,2),1)],[],2)</command>
+<command error="true" execution_time="45">sign(y) * max([abs(y) - alpha*lambda,zeros(size(A,2),1)],[],2)</command>
+<command execution_time="85">y</command>
+<command execution_time="75">size(y)</command>
+<command execution_time="36">size(max([abs(y) - alpha*lambda,zeros(size(A,2),1)],[],2))</command>
+<command error="true" execution_time="60667">LassoWarmup</command>
+<command execution_time="62">size(freq_matrixTest)</command>
+<command execution_time="36">size(xhat)</command>
+<command execution_time="38">clc</command>
+<command execution_time="60935">LassoWarmup</command>
+<command error="true" execution_time="35">(find(abs(xhat) &gt;eps)</command>
+<command execution_time="35">(find(abs(xhat) &gt;eps))</command>
+<command error="true" execution_time="33">size(keywords</command>
+<command execution_time="35">size(keywords)</command>
+<command execution_time="58">size(xhat)</command>
+<command execution_time="60506">LassoWarmup</command>
+<command execution_time="82">xhat</command>
+<command error="true" execution_time="69">fprintf('%d @ %3.4f = %s\n', i, xhat(ind(i)), newkeywords(ind(i)) )</command>
+<command execution_time="57">fprintf('%d @ %3.4f = %s\n', i, xhat(ind(i)), newkeywords{ind(i)} )</command>
+<command execution_time="66">ind</command>
+<command execution_time="53">xhat(ind)</command>
+<command execution_time="35">i</command>
+<command execution_time="29">ind(i)</command>
+<command execution_time="805041" repeat="2">LassoWarmup</command>
+<command execution_time="277">keywords</command>
+<command batch="3">for i = 1:30;</command>
+<command batch="3">fprintf('%d @ %3.4f = [%s]\n', i, xhat(ind(i)), keywords{ind(i)} );</command>
+<command batch="3" execution_time="84">end</command>
+<command execution_time="68">text</command>
+<command execution_time="36">text(1)</command>
+<command execution_time="37">length(text{1})</command>
+<command execution_time="59">text{1}</command>
+<command execution_time="123">descTrain</command>
+<command execution_time="70">descTrain.FullDescription</command>
+<command execution_time="49">descTrain.FullDescription(1)</command>
+<command execution_time="60">descTrain.FullDescription{1}</command>
+<command execution_time="1598">words</command>
+<command execution_time="33">words(1:10)</command>
+<command execution_time="293">train</command>
+<command execution_time="66">train.SalaryNormalized</command>
+<command error="true" execution_time="140">LassoWarmup</command>
+<command execution_time="37">text</command>
+<command execution_time="33">text{1}</command>
+<command execution_time="39">text{2}</command>
+<command execution_time="37">i</command>
+<command execution_time="61">strsplit(descTrain.FullDescription{i}, ' ')</command>
+<command execution_time="61">text = strsplit(descTrain.FullDescription{i}, ' ')</command>
+<command error="true" execution_time="618173" repeat="3">LassoWarmup</command>
+<command execution_time="212">keywords</command>
+<command execution_time="273">sort(keywords)</command>
+<command execution_time="262">a = sort(keywords)</command>
+<command execution_time="38">a(1:10)</command>
+<command execution_time="15844">LassoWarmup</command>
+<command execution_time="33">descTrain.FullDescription{i}</command>
+<command execution_time="26">keywords{j}</command>
+<command execution_time="39">strfind(descTrain.FullDescription{i}, keywords{j})</command>
+<command execution_time="30">descTrain.FullDescription(i)</command>
+<command execution_time="5088" repeat="2">LassoWarmup</command>
+<command execution_time="103">keywords</command>
+<command execution_time="38">size(keywords)</command>
+<command execution_time="36">length(descTrain.FullDescription{i})</command>
+<command execution_time="5071">LassoWarmup</command>
+<command execution_time="414">descTrain</command>
+<command execution_time="37">strfind(descTrain.FullDescription,keywords{1})</command>
+<command execution_time="35">descTrain.FullDescription{4}</command>
+<command execution_time="22">keywords(1)</command>
+<command execution_time="30">disp(descTrain.FullDescription{4})</command>
+<command execution_time="23">descTrain.FullDescription{4}</command>
+<command execution_time="30">strfind(descTrain.FullDescription{4},keywords{1})</command>
+<command execution_time="22">a = descTrain.FullDescription{4}</command>
+<command execution_time="47">a(207:end)</command>
+<command execution_time="33">a = strfind(descTrain.FullDescription{4},keywords{1})</command>
+<command execution_time="24">a = strfind(descTrain.FullDescription,keywords{1})</command>
+<command execution_time="35">a{1}</command>
+<command error="true" execution_time="68">find(a)</command>
+<command error="true" execution_time="39">a = strfind(descTrain.FullDescription,keywords{1:3})</command>
+<command error="true" execution_time="69">a = strfind(descTrain.FullDescription{1},keywords)</command>
+<command execution_time="66">a = strfind(keywords, descTrain.FullDescription{1})</command>
+<command execution_time="67">a = strfind(descTrain.FullDescription,keywords{1})</command>
+<command execution_time="33">length(a{4})</command>
+<command execution_time="33">length(a{3})</command>
+<command execution_time="190281" repeat="5">LassoWarmup</command>
+<command execution_time="60">delta</command>
+<command execution_time="63">eps</command>
+<command execution_time="301454">LassoWarmup</command>
+<command execution_time="612">readAurora</command>
+<command execution_time="18">aur</command>
+<command execution_time="18">aur.sens(1)</command>
+<command execution_time="49">time</command>
+<command execution_time="30">aur.time = time;</command>
+<command execution_time="32">aur</command>
+<command execution_time="28">path2auroraFile = 'AuroraData_092414-115715.log';</command>
+<command execution_time="299">b = readAurora(path2auroraFile)</command>
+<command execution_time="303052">LassoWarmup</command>
+</session>
+<session>
+<command time_stamp="14a128e4d80">%-- 12/3/2014 5:48 PM --%</command>
+<command execution_time="66">prefdir</command>
+</session>
+</history>
