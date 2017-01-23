@@ -1,10 +1,8 @@
 function setAllVisible(OFFon, fig)
-disp(nargin)
 
 if nargin < 2;
     fig = gcf;
 end
-get(fig,'name')
 
 if nargin < 1;
     OFFon = 'off';
@@ -14,7 +12,10 @@ if ~(strcmp(OFFon,'off') || strcmp(OFFon,'on'));
     OFFon = 'off';
 end
 
-c = get(get(fig,'Children'),'Children');
-for i = 1:length(c);
-    set(c(i),'Visible',OFFon);
-end;
+axs = fig.Children;
+for iax = 1:length(axs);
+    lines = axs(iax).Children;
+    for iline = 1:length(lines);
+        set(lines(iline),'Visible',OFFon);
+    end
+end
