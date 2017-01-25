@@ -21,10 +21,8 @@ for i = 1:length(figs);
         set(allaxes(ia),'ylimmode','manual');
         set(allaxes(ia),'yticklabelmode','manual');
 
-        a = get(allaxes(ia),'XAxis');
-        set(a,'MinorTickValuesMode','manual');
-        a = get(allaxes(ia),'YAxis');
-        set(a,'MinorTickValuesMode','manual');
+%         set(get(allaxes(ia),'XAxis'),'MinorTickValuesMode','manual');
+%         set(get(allaxes(ia),'YAxis'),'MinorTickValuesMode','manual'); %these don't exist anymore
     end
     
 %     %getFrame() -- screen resolution only
