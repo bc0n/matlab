@@ -5,10 +5,40 @@
             <value>1</value>
         </bool>
     </key>
+    <key name="G11nLanguagePref">
+        <string>
+        </string>
+    </key>
     <key name="UserPath">
         <string>
         </string>
     </key>
+    <settings name="addons">
+        <key name="AddLegacyAddOnFolders">
+            <bool>
+            </bool>
+        </key>
+        <key name="AdditionalInstallationFolders">
+            <string minArraySize="0" maxArraySize="100">
+            </string>
+        </key>
+        <key name="Enabled">
+            <bool>
+            </bool>
+        </key>
+        <key name="ImportLegacyAddOnsAtStartup">
+            <bool>
+            </bool>
+        </key>
+        <key name="InstallationFolder">
+            <string>
+            </string>
+        </key>
+        <key name="LastFolderPath">
+            <string>
+            </string>
+        </key>
+    </settings>
     <settings name="apps" visible="true">
         <key name="AppsInstallFolder" visible="true">
             <string>
@@ -32,11 +62,23 @@
         </key>
     </settings>
     <settings name="desktop">
+        <key name="BlockEditorGraphicalDebugging">
+            <bool>
+            </bool>
+        </key>
         <key name="EnableMlxSupport">
             <bool>
             </bool>
         </key>
+        <key name="EnableRichScriptLive">
+            <bool>
+            </bool>
+        </key>
         <key name="EnableRichScriptSupport">
+            <bool>
+            </bool>
+        </key>
+        <key name="HighDPISupport">
             <bool>
             </bool>
         </key>
@@ -67,6 +109,8 @@
             </key>
             <key name="History">
                 <string minArraySize="0" maxArraySize="500">
+                    <value><![CDATA[C:\Users\ben\Box Sync\oct\20170131_oct_galvoelbo_sw]]></value>
+                    <value><![CDATA[C:\Users\ben\Box Sync\20170131_oct_galvoelbo_sw]]></value>
                     <value><![CDATA[C:\Users\ben\ece532\project\ece532_final]]></value>
                     <value><![CDATA[C:\Users\ben\vytronus\generatePhaseIndex\141202_coordinateFrames]]></value>
                     <value><![CDATA[C:\Users\ben\ece532\project\ece532_final\labDraft_141204]]></value>
@@ -243,6 +287,14 @@
             </key>
         </settings>
         <settings name="workspace">
+            <key name="ArraySizeLimit" visible="true">
+                <uint8>
+                </uint8>
+            </key>
+            <key name="ArraySizeLimitEnabled" visible="true">
+                <bool>
+                </bool>
+            </key>
             <settings name="savevariablestoscript" visible="true">
                 <key name="ArrayDimensionsFor2Dslice" visible="true">
                     <double minArraySize="2" maxArraySize="2">
@@ -278,6 +330,32 @@
         </settings>
     </settings>
     <settings name="graphics">
+        <settings name="machine_specific">
+            <settings name="H11888229508059029952">
+                <key name="ever_crashed_in_graphics">
+                    <uint32>
+                        <value>0</value>
+                    </uint32>
+                </key>
+                <key name="opengl_preference">
+                    <uint32>
+                        <value>0</value>
+                    </uint32>
+                </key>
+            </settings>
+            <settings name="H9676702507871848879">
+                <key name="ever_crashed_in_graphics">
+                    <uint32>
+                        <value>0</value>
+                    </uint32>
+                </key>
+                <key name="opengl_preference">
+                    <uint32>
+                        <value>0</value>
+                    </uint32>
+                </key>
+            </settings>
+        </settings>
         <settings name="opengl_preference">
             <key name="H11093822055801">
                 <uint32>
@@ -309,7 +387,7 @@
             </string>
         </key>
         <key name="Migrated">
-            <bool>
+            <bool undef="true">
             </bool>
         </key>
         <key name="ShowAxes">
@@ -318,8 +396,12 @@
         </key>
     </settings>
     <settings name="unittest">
-        <key name="DefaultPluginsFunction">
+        <key name="DefaultPluginsFcn">
             <string>
+            </string>
+        </key>
+        <key name="DefaultPluginsFunction">
+            <string undef="true">
             </string>
         </key>
     </settings>
@@ -336,7 +418,7 @@
         </key>
         <key name="LastFolderPath">
             <string>
-                <value><![CDATA[C:\Users\ben\Documents\MATLAB]]></value>
+                <value><![CDATA[C:\Users\ben\Box Sync\oct\20170131_oct_galvoelbo_sw]]></value>
             </string>
         </key>
     </settings>

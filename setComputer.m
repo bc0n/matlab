@@ -27,29 +27,10 @@ if strcmp(hname, 'BI7')
         maxd = [1           1        1920        1003];
     end
 elseif strcmp(hname, 'MYNOCK');
-%     if mainWindowLocation.getX < wins(1,1) % window is on the left monitor, figures on right
-%         left = wins(1,:); left(3) = wins(1,3)/2;
-%         rght = wins(1,:); rght(3) = wins(1,3)/2; rght(1) = rght(1) + wins(1,3)/2;
-%         maxd = wins(1,:);
-%     end
-    %window right
-    maxd = [1921, 1, 1920, 1004];
-    rght = [2881, 1, 960, 1000];
-    left = [1929, 9, 944, 988];
-    %window left
-%     maxd = [-1279           1        1280         948];
-%     left = [ -1271           9         624         932];
-%     rght = [-631     9   624   932];
-    %single window
-%     left = [ 9     9   824   958];
-%     rght = [849     9   824   958];
-%     maxd = [ 1           1        1680         974];
-    
-elseif strcmp(hname, 'ZINN-LAB-01');
-    left = [-1271           9         624         932];
-    rght = [-631     9   624   932];
-    maxd = [-1279           1        1280         948];
-    
+    %left monitor
+    maxd = [   1   1 1920 1123];
+    rght = [ 962   2  958 1114];
+    left = [   2   2  958 1114];
 end
 assignin('base','maxd',maxd);
 assignin('base','left',left);
