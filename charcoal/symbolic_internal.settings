@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings name="symbolic_internal" xmlns="urn:mathworks.matlab.settings" xsi:schemaLocation="urn:mathworks.matlab.settings settings.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <key name="AbbreviateOutput">
+        <bool>
+            <value>1</value>
+        </bool>
+    </key>
+    <key name="FourierParameters">
+        <string>
+            <value><![CDATA[symobj::fromString("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",2)]]></value>
+        </string>
+    </key>
+    <key name="HeavisideAtOrigin">
+        <string>
+            <value><![CDATA[symobj::fromString("eJxjZmBgYGJgaJgGpFmYGVmBlIMUAwQwA9kiUDZQDQMnCBdXFicWF2em54GFUeSNQLg8NbMoRaEssSgzMSknVSEvMTe1WKG0ODVFITNPobgyNz8py6U0N7fSMyU1ryQzLTO1iAHZTiY0M1lAOCM/JwVNDS43gtUX5+SXoImzgXBxSUpOZhLYPi4GBOAF4eLUkuDKXMeczMTi1GKI3ySR7DiFpJ5qASYKwjjDhLhAYUFyFyMIM0IVgdgA3gw6l3==",2)]]></value>
+        </string>
+    </key>
+    <key name="TypesetOutput">
+        <bool>
+            <value>1</value>
+        </bool>
+    </key>
+</settings>

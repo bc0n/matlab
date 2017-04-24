@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <history>
 <session>
-<command time_stamp="1499b677aaa">%-- 11/10/2014 2:31 PM --%</command>
+<command time_stamp="1499b677aaa">%-- 11/10/2014 12:31 PM --%</command>
 <command execution_time="509">readAcquisitionBinary</command>
 </session>
 <session>
-<command time_stamp="1499cc0604d">%-- 11/10/2014 8:48 PM --%</command>
+<command time_stamp="1499cc0604d">%-- 11/10/2014 6:48 PM --%</command>
 <command execution_time="5447">warmup</command>
 </session>
 <session>
-<command time_stamp="149a566f504">%-- 11/12/2014 1:07 PM --%</command>
+<command time_stamp="149a566f504">%-- 11/12/2014 11:07 AM --%</command>
 <command execution_time="1019">readAcquisitionBinary</command>
 </session>
 <session>
-<command time_stamp="149abe791c2">%-- 11/13/2014 7:25 PM --%</command>
+<command time_stamp="149abe791c2">%-- 11/13/2014 5:25 PM --%</command>
 <command execution_time="678">ece532_conrad_h8</command>
 <command execution_time="34">7/45*[1;-2]</command>
 <command execution_time="144">ece532_conrad_h8</command>
@@ -90,7 +90,7 @@
 <command execution_time="1229">svmm = svmtrain(A, b','showplot',1,'kernel_function','rbf'); %gaussian</command>
 </session>
 <session>
-<command time_stamp="149c44fb9c7">%-- 11/18/2014 1:09 PM --%</command>
+<command time_stamp="149c44fb9c7">%-- 11/18/2014 11:09 AM --%</command>
 <command execution_time="5883">figure; hold on;</command>
 <command execution_time="111">plot3([-72.89,-62.35],[1.34,-3.574],[-189.6,192.4],'k.-')</command>
 <command execution_time="54">grid on;</command>
@@ -101,7 +101,7 @@
 <command execution_time="30">plot3([-62.35+-1.90],[-3.574+.88],[192.4+.505],'mp')</command>
 </session>
 <session>
-<command time_stamp="149c8b76464">%-- 11/19/2014 9:41 AM --%</command>
+<command time_stamp="149c8b76464">%-- 11/19/2014 7:41 AM --%</command>
 <command error="true" execution_time="1777" repeat="4">createPhaseIndexed</command>
 <command execution_time="28">pwd</command>
 <command error="true" execution_time="394">didr</command>
@@ -124,7 +124,7 @@
 <command error="true" execution_time="27">a1.xyz(1,:)</command>
 </session>
 <session>
-<command time_stamp="149c8d8194a">%-- 11/19/2014 10:17 AM --%</command>
+<command time_stamp="149c8d8194a">%-- 11/19/2014 8:17 AM --%</command>
 <command execution_time="1359">createPhaseIndexed</command>
 <command execution_time="44">clc</command>
 <command execution_time="1247">createPhaseIndexed</command>
@@ -148,15 +148,15 @@
 <command execution_time="8829">createPhaseIndexed</command>
 </session>
 <session>
-<command time_stamp="149c8fc4d91">%-- 11/19/2014 10:56 AM --%</command>
+<command time_stamp="149c8fc4d91">%-- 11/19/2014 8:56 AM --%</command>
 <command execution_time="14025">createPhaseIndexed</command>
 </session>
 <session>
-<command time_stamp="149c90e19e0">%-- 11/19/2014 11:16 AM --%</command>
+<command time_stamp="149c90e19e0">%-- 11/19/2014 9:16 AM --%</command>
 <command execution_time="2293">readAcquisitionBinary</command>
 </session>
 <session>
-<command time_stamp="149ec8f938c">%-- 11/26/2014 8:44 AM --%</command>
+<command time_stamp="149ec8f938c">%-- 11/26/2014 6:44 AM --%</command>
 <command execution_time="5648">cluster_data</command>
 <command execution_time="47">A</command>
 <command execution_time="32">A'</command>
@@ -225,24 +225,24 @@
 <command execution_time="637" repeat="3">ece532_h9_conrad</command>
 </session>
 <session>
-<command time_stamp="149ece53c4d">%-- 11/26/2014 10:18 AM --%</command>
+<command time_stamp="149ece53c4d">%-- 11/26/2014 8:18 AM --%</command>
 <command execution_time="2652">ece532_h9_conrad</command>
 <command execution_time="109">close all</command>
 </session>
 <session>
-<command time_stamp="149edd2ca4a">%-- 11/26/2014 2:37 PM --%</command>
+<command time_stamp="149edd2ca4a">%-- 11/26/2014 12:37 PM --%</command>
 <command execution_time="47">3^(-.5/1)*(1/1.5)^(1/.5)*5/16.5</command>
 <command execution_time="63">7e-2</command>
 <command execution_time="62">3^(-.5/1)*(1/3)^(1/.5)*5/16.5</command>
 </session>
 <session>
-<command time_stamp="14a06f1a2cd">%-- 12/1/2014 11:41 AM --%</command>
+<command time_stamp="14a06f1a2cd">%-- 12/1/2014 9:41 AM --%</command>
 <command execution_time="511660" repeat="2">LassoWarmup</command>
 <command execution_time="252">format compact</command>
 <command execution_time="224">511/60</command>
 </session>
 <session>
-<command time_stamp="14a072577cc">%-- 12/1/2014 12:38 PM --%</command>
+<command time_stamp="14a072577cc">%-- 12/1/2014 10:38 AM --%</command>
 <command execution_time="406">LassoWarmup</command>
 <command execution_time="31">format compact</command>
 <command execution_time="47">salaryTrain</command>
@@ -317,10 +317,7 @@
 <command execution_time="447" repeat="5">warmup</command>
 </session>
 <session>
-<command time_stamp="14a0804e5d6">%-- 12/1/2014 4:42 PM --%</command>
-</session>
-<session>
-<command time_stamp="14a08075939">%-- 12/1/2014 4:45 PM --%</command>
+<command time_stamp="14a08075939">%-- 12/1/2014 2:45 PM --%</command>
 <command batch="2">LassoWarmup</command>
 <command batch="2" execution_time="12636">LassoWarmup</command>
 <command execution_time="47">clc</command>
@@ -329,7 +326,7 @@
 <command execution_time="31">A3</command>
 </session>
 <session>
-<command time_stamp="14a0dec2bcc">%-- 12/2/2014 8:13 PM --%</command>
+<command time_stamp="14a0dec2bcc">%-- 12/2/2014 6:13 PM --%</command>
 <command execution_time="4078">fig = figure('Name','3D Frames'); hold on;</command>
 <command execution_time="61">get(gcf,'Position')</command>
 <command error="true" execution_time="680" repeat="2">plotCoordinateFrames</command>
@@ -442,10 +439,344 @@
 <command execution_time="303052">LassoWarmup</command>
 </session>
 <session>
-<command time_stamp="14a128e4d80">%-- 12/3/2014 5:48 PM --%</command>
+<command time_stamp="14a128e4d80">%-- 12/3/2014 3:48 PM --%</command>
 <command execution_time="66">prefdir</command>
 </session>
 <session>
-<command time_stamp="14a12f6e580">%-- 12/3/2014 7:42 PM --%</command>
+<command time_stamp="159ccbc2e22">%-- 1/23/2017 11:10 AM --%</command>
+<command execution_time="56">2560/1440</command>
+<command execution_time="14">16/10</command>
+<command execution_time="760">clc</command>
+</session>
+<session>
+<command time_stamp="15a014b1607">%-- 2/2/2017 4:06 PM --%</command>
+<command execution_time="594">edit homogeneousTransformationMatrices.m</command>
+<command execution_time="9">atan2(4.62, 133.17)</command>
+<command execution_time="29" repeat="2">setComputer</command>
+<command execution_time="7">atan2(4.62, 133.17)*57</command>
+<command execution_time="179" repeat="5">galvoelbow_test</command>
+<command execution_time="5">ax = gca;</command>
+<command execution_time="323" repeat="5">galvoelbow_test</command>
+<command execution_time="26">GalvoElbow</command>
+<command execution_time="252">galvoelbow_test</command>
+<command execution_time="12">GalvoElbow</command>
+<command execution_time="239" repeat="5">galvoelbow_test</command>
+</session>
+<session>
+<command time_stamp="15a24062f0a">%-- 2/9/2017 9:57 AM --%</command>
+<command execution_time="11">clc</command>
+<command execution_time="536">galvoelbow_test</command>
+<command execution_time="9">widthmm = 10;</command>
+<command execution_time="9">radiusWidthMM = 100</command>
+<command execution_time="7">widthMM = 10;</command>
+<command execution_time="10">asin(widthMM/2 / radiusWidthMM)</command>
+<command execution_time="7">asin(widthMM/2 / radiusWidthMM)*57</command>
+<command execution_time="7">radiusWidthMM = 10</command>
+<command execution_time="7">asin(widthMM/2 / radiusWidthMM)*57</command>
+<command execution_time="11">c = 2</command>
+<command execution_time="8">x = -1:.1:1;</command>
+<command error="true" execution_time="332">y = sqrt(c^2 - (x0+x).^2) - y0</command>
+<command execution_time="9">x0 = 1; y0 = 2</command>
+<command execution_time="17">y = sqrt(c^2 - (x0+x).^2) - y0</command>
+<command execution_time="69" repeat="2">plot(x,y)</command>
+<command execution_time="11">y = sqrt(c^2 - (x0-x).^2) + y0</command>
+<command execution_time="15">plot(x,y)</command>
+<command execution_time="7">axis square</command>
+<command execution_time="10">y = sqrt(c^2 - (x-x0).^2) + y0</command>
+<command execution_time="9">plot(x,y)</command>
+<command execution_time="402">help poly22</command>
+<command execution_time="11">clc</command>
+<command execution_time="9">z = @(x,y) sqrt(radiusWidthMM^2 - y^2) - radiusWidthMM + sqrt(radiusLengthMM^2 - x^2) - radiusLengthMM;</command>
+<command error="true" execution_time="22">z(0,0)</command>
+<command execution_time="11">radiusLengthMM = 10</command>
+<command execution_time="9">radiusWidthMM = 20</command>
+<command execution_time="9">z = @(x,y) sqrt(radiusWidthMM^2 - y^2) - radiusWidthMM + sqrt(radiusLengthMM^2 - x^2) - radiusLengthMM;</command>
+<command execution_time="10">z(0,0)</command>
+<command execution_time="10">z(1,0)</command>
+<command error="true" execution_time="33">xs = linspace(-10,10,100); ys = xs; for i = 1:100; for j = 1:100; zs(i,j) = z(xs(i),ys(h)); end; end</command>
+<command execution_time="15">xs = linspace(-10,10,100); ys = xs; for i = 1:100; for j = 1:100; zs(i,j) = z(xs(i),ys(j)); end; end</command>
+<command execution_time="41">zs</command>
+<command execution_time="26">[xg,yg] = meshgrid(x,y)</command>
+<command error="true" execution_time="98">surf3(xg,yg,zs)</command>
+<command error="true" execution_time="65">surf(xg,yg,zs)</command>
+<command execution_time="14">size(zs)</command>
+<command execution_time="10">xs</command>
+<command execution_time="52">[xg,yg] = meshgrid(xs,ys)</command>
+<command execution_time="95">surf(xg,yg,zs)</command>
+<command execution_time="119">setComputer</command>
+<command execution_time="22">oct = Octopus</command>
+<command execution_time="15">oct.createBiconic( 10, 3, 30, 20 )</command>
+<command error="true" execution_time="11">oct.plotSurface</command>
+<command execution_time="50">hold on</command>
+<command execution_time="7">oct.surface</command>
+<command execution_time="10">oct = oct.createBiconic( 10, 3, 30, 20 )</command>
+<command execution_time="122" repeat="2">oct.plotSurface</command>
+<command execution_time="12">oct = oct.createBiconic( 10, 3, 10, 30 )</command>
+<command execution_time="81">oct.plotSurface</command>
+<command execution_time="41">xlabel('x'); ylabel('y'); zlabel('z');</command>
+<command execution_time="13">axis equal;</command>
+<command execution_time="102">setComputer</command>
+<command execution_time="21">oct = Octopus</command>
+<command execution_time="11">oct = oct.createBiconic( 10, 3, 10, 30 )</command>
+<command execution_time="141">oct.plotSurface</command>
+<command execution_time="35">xlabel('x'); ylabel('y'); zlabel('z');</command>
+<command execution_time="13">axis equal;</command>
+<command execution_time="109">setComputer</command>
+<command execution_time="15">oct = Octopus</command>
+<command execution_time="11">oct.createBiconic( 10, 3, 30, 20 )</command>
+<command error="true" execution_time="9">oct.plotSurface</command>
+<command execution_time="7">oct = oct.createBiconic( 10, 3, 10, 30 );</command>
+<command execution_time="152">oct.plotSurface</command>
+<command execution_time="10">oct = Octopus</command>
+<command execution_time="10">oct = oct.createBiconic( 10, 3, 10, 30 );</command>
+<command execution_time="46">oct.plotSurface;</command>
+<command execution_time="7">clc</command>
+<command execution_time="19">oct.Rtk(0,[.1,.2,.7])</command>
+<command execution_time="8">clc</command>
+<command execution_time="9">w = [.8,.2]</command>
+<command execution_time="8">w(3) = sqrt(1-w(1)^2-w(2)^2)</command>
+<command execution_time="45">clf</command>
+<command error="true" execution_time="26">quiver3( [0,0,0],[0,0,1],'b-')</command>
+<command execution_time="188">quiver3(0,0,0, 0,0,1,'b-')</command>
+<command execution_time="14">axis equal</command>
+<command execution_time="18">quiver3(0,0,0, w(1),w(2),w(3),'c-')</command>
+<command execution_time="11">hold on;</command>
+<command execution_time="13">quiver3(0,0,0, 0,0,1,'b-')</command>
+<command execution_time="25">xlabel('x'); ylabel('y'); zlabel('z');</command>
+<command execution_time="19">k = cross( [0,0,1], w )</command>
+<command execution_time="14">quiver3(0,0,0, k(1),k(2),k(3),'w-')</command>
+<command execution_time="8">acos( dot([0,0,1], w))</command>
+<command execution_time="8">acos( dot([0,0,1], w))*180/pi</command>
+<command execution_time="10">th = acos( dot([0,0,1], w))</command>
+<command error="true" execution_time="142">H = eye(4) * obj.Rtk(th,k)</command>
+<command execution_time="8">clc</command>
+<command execution_time="7">obj =oct;</command>
+<command execution_time="17">H = eye(4) * obj.Rtk(th,k)</command>
+<command execution_time="14">quiver3( 0,0,0, H(1,1),H(2,1),H(3,1), 'r:' )</command>
+<command execution_time="14">quiver3( 0,0,0, H(1,2),H(2,2),H(3,2), 'g:' )</command>
+<command execution_time="13">quiver3( 0,0,0, H(1,3),H(2,3),H(3,3), 'b:' )</command>
+<command execution_time="7">axis equal</command>
+<command execution_time="7">w</command>
+<command execution_time="9">[w',H(1:3,3)]</command>
+<command execution_time="902">edit exploreWorkspace</command>
+<command execution_time="272" repeat="3">exploreWorkspace</command>
+<command execution_time="311">edit setComputer.m</command>
+<command execution_time="7" repeat="3">get(gcf,'Position')</command>
+<command execution_time="439" repeat="3">exploreWorkspace</command>
+<command execution_time="21">sty = bquiv3</command>
+<command execution_time="562" repeat="2">exploreWorkspace</command>
+<command execution_time="7">H</command>
+<command execution_time="10">xyz</command>
+<command execution_time="520">exploreWorkspace</command>
+<command execution_time="7">H</command>
+<command execution_time="184">edit Octopus.m</command>
+<command execution_time="131">edit exploreWorkspace.m</command>
+<command execution_time="505" repeat="2">exploreWorkspace</command>
+<command execution_time="7">view(90,20);</command>
+<command execution_time="8">w</command>
+<command execution_time="13">xyz</command>
+<command execution_time="15">oct.surface.rBregma</command>
+<command execution_time="11">atan2( xyz(1), oct.surface.rBregma )</command>
+<command execution_time="11">oct.surface.rLateral</command>
+<command execution_time="10">atan2( xyz(2), oct.surface.rLateral )</command>
+<command execution_time="530">exploreWorkspace</command>
+<command execution_time="9" repeat="2">axis equal</command>
+<command execution_time="35">h = oct.plotSurface;</command>
+<command execution_time="16">h</command>
+<command execution_time="7">h.EdgeColor = zeros(3,1)+.7;</command>
+<command execution_time="557" repeat="6">exploreWorkspace</command>
+<command execution_time="10">dot(H(1:3,1),H(1:3,3))</command>
+<command execution_time="10">dot(H(1:3,2),H(1:3,3))</command>
+<command execution_time="3324" repeat="2">exploreWorkspace</command>
+<command execution_time="7">h.EdgeColor = zeros(3,1)+.7;</command>
+<command execution_time="13">h.EdgeColor = zeros(3,1)+.6</command>
+<command execution_time="12">h.LineStyle = ':'</command>
+<command execution_time="290" repeat="11">exploreWorkspace</command>
+<command execution_time="13">Octopus</command>
+<command execution_time="289" repeat="2">exploreWorkspace</command>
+<command execution_time="6">axis square;</command>
+<command execution_time="315" repeat="11">exploreWorkspace</command>
+<command execution_time="14">a = oct.createBiconic( 10, 5, 20,10)</command>
+<command execution_time="10">b = oct.createBiconic( 10, 1, 20,10)</command>
+<command execution_time="11">a.surface.xy(1,0)</command>
+<command execution_time="10">b.surface.xy(1,0)</command>
+<command execution_time="9">a.surface.xy(10,0)</command>
+<command execution_time="16">a.surface.xy(5,0)</command>
+<command execution_time="11">b.surface.xy(5,0)</command>
+<command execution_time="10">a.surface.xy(0,.5)</command>
+<command execution_time="10">b.surface.xy(0,.5)</command>
+<command execution_time="521">exploreWorkspace</command>
+<command execution_time="7">H</command>
+<command execution_time="484">exploreWorkspace</command>
+<command execution_time="9">xyz</command>
+<command execution_time="553" repeat="2">exploreWorkspace</command>
+<command execution_time="7" repeat="2">h</command>
+<command execution_time="8">H</command>
+<command execution_time="562" repeat="3">exploreWorkspace</command>
+<command execution_time="9">Octopus</command>
+<command execution_time="514" repeat="3">exploreWorkspace</command>
+<command execution_time="7">t = pi/2:.1:pi/2;</command>
+<command execution_time="14">[x,y,z] = cylinder(sin(t));</command>
+<command execution_time="8">surf(x,y,z)</command>
+<command execution_time="67">close all</command>
+<command execution_time="55">surf(x,y,z)</command>
+<command execution_time="7">[x,y,z] = cylinder(10*sin(t));</command>
+<command execution_time="16">surf(x,y,z)</command>
+<command execution_time="6">axis square</command>
+<command execution_time="8">10*sin(t)</command>
+<command execution_time="10">t</command>
+<command execution_time="6">t = (-pi/2):.1:pi/2;</command>
+<command execution_time="9">t</command>
+<command execution_time="7">[x,y,z] = cylinder(10*sin(t));</command>
+<command execution_time="10">surf(x,y,z)</command>
+<command execution_time="7">[x,y,z] = cylinder(10*cos(t));</command>
+<command execution_time="10">surf(x,y,z)</command>
+<command error="true" execution_time="12">t = linspace(50:130)*pi/180;</command>
+<command execution_time="7">t = linspace(50,130)*pi/180;</command>
+<command execution_time="7">[x,y,z] = cylinder(10*cos(t));</command>
+<command execution_time="10">surf(x,y,z)</command>
+<command execution_time="8">t</command>
+<command execution_time="12">cos(t)</command>
+<command execution_time="7">[x,y,z] = cylinder(10*sin(t));</command>
+<command execution_time="16">surf(x,y,z)</command>
+<command error="true" execution_time="148" repeat="3">exploreWorkspace</command>
+<command execution_time="73">zg</command>
+<command execution_time="11">clc</command>
+<command execution_time="202">exploreWorkspace</command>
+<command execution_time="1398">syms x</command>
+<command execution_time="28">syms r</command>
+<command execution_time="190">diff( sqrt(r^2-x^2), x)</command>
+<command execution_time="9">clc</command>
+<command execution_time="270">exploreWorkspace</command>
+<command execution_time="14">nxyz = n(lbmm/2, llmm/2)</command>
+<command execution_time="11">norm(nxyz)</command>
+<command error="true" execution_time="164" repeat="8">exploreWorkspace</command>
+<command execution_time="29">GalvoElbow</command>
+<command execution_time="534" repeat="4">exploreWorkspace</command>
+<command execution_time="7">axis equal</command>
+<command execution_time="536">exploreWorkspace</command>
+<command execution_time="14">oct</command>
+<command execution_time="553">exploreWorkspace</command>
+<command error="true" execution_time="16">oct.drawConfig(zeros(5,1))</command>
+<command execution_time="9">oct.forwardK( [.1,.2,.3,.4,.5] )</command>
+<command execution_time="10">H = oct.forwardK( [.1,.2,.3,.4,.5] )</command>
+<command execution_time="10">H - H</command>
+<command execution_time="826" repeat="11">exploreWorkspace</command>
+<command execution_time="1587">obj.opts = optimset('fmincon')</command>
+<command execution_time="10">obj.opts</command>
+<command execution_time="1406" repeat="2">exploreWorkspace</command>
+<command execution_time="10">res</command>
+<command execution_time="8">oct.drawConfig( res.qp, [1,0,0],1, 'o',10 );</command>
+<command error="true" execution_time="230" repeat="6">exploreWorkspace</command>
+<command execution_time="10" repeat="2">H00</command>
+<command execution_time="3257">exploreWorkspace</command>
+<command error="true" execution_time="26">ylim(200,300)</command>
+<command execution_time="10">ylim([200,300])</command>
+<command execution_time="9">axis equal</command>
+<command execution_time="11">zlim([200,300])</command>
+<command execution_time="9">zlim([230,240])</command>
+<command execution_time="10">axis equal</command>
+<command execution_time="9">zlim([230,240])</command>
+<command execution_time="8">H00</command>
+<command batch="4">xlim(H00(1,4) + [-20,20]);</command>
+<command batch="4" execution_time="20">zlim(H00(3,4) + [-20,20]);</command>
+<command batch="5">xlim(H00(1,4) + 10*[-1,1]);</command>
+<command batch="5" execution_time="13">zlim(H00(3,4) + 10*[-1,1]);</command>
+<command execution_time="2622" repeat="2">exploreWorkspace</command>
+<command batch="6">xlim(H00(1,4) + 10*[-1,1]);</command>
+<command batch="6" execution_time="10">zlim(H00(3,4) + 10*[-1,1]);</command>
+<command error="true" execution_time="144">v</command>
+<command execution_time="20">cross(u,v)</command>
+<command execution_time="10">cross(u,w)</command>
+<command execution_time="10">dot(u,v)</command>
+<command execution_time="9">dot(u,w)</command>
+<command execution_time="21">clc</command>
+<command execution_time="9">[u,v,w]</command>
+<command execution_time="11">[cross(u,v),w]</command>
+<command error="true" execution_time="89">[nmlz(cross(u,v)),w]</command>
+<command execution_time="2684">exploreWorkspace</command>
+<command execution_time="10">clc</command>
+<command execution_time="10">[u,v,w]</command>
+<command execution_time="12">[nmlz(cross(u,v)),w]</command>
+<command execution_time="8">dot(u,v)</command>
+<command execution_time="14">dot([1,0,0],[0,0,1])</command>
+<command execution_time="7">clc</command>
+<command execution_time="10">xyz</command>
+<command execution_time="10">d</command>
+<command execution_time="9">d = xyz</command>
+<command execution_time="11">d(3) = obj.surface.z(d(1),d(2)) + eps</command>
+<command execution_time="6">xyz = Htgt(1:3,4);</command>
+<command execution_time="7">clc</command>
+<command execution_time="8">xyz = Htgt(1:3,4)</command>
+<command execution_time="10">d = xyz - [eps;0;0]</command>
+<command execution_time="9">obj.surface.z(d(1),d(2))</command>
+<command execution_time="9">xyz</command>
+<command batch="7" error="true">eps = .1;</command>
+<command batch="7" error="true">if xy(1) &lt; 0; xy(1) = xy(1) + eps; else xy(1) = xy(1) - eps; end</command>
+<command batch="7" error="true" execution_time="99">d = obj.getPose(xy, H00)</command>
+<command batch="8">xy = [2,1];</command>
+<command batch="8">obj = oct;</command>
+<command batch="8">eps = .1;</command>
+<command batch="8">if xy(1) &lt; 0; xy(1) = xy(1) + eps; else xy(1) = xy(1) - eps; end</command>
+<command batch="8" execution_time="31">d = obj.getPose(xy, H00)</command>
+<command execution_time="10">Htgt</command>
+<command batch="9">eps = .1;</command>
+<command batch="9">if xy(1) &lt; 0; xy(1) = xy(1) + eps; else xy(1) = xy(1) - eps; end</command>
+<command batch="9">d = Htgt - obj.getPose(xy, H00); d = d(1:3,4);</command>
+<command batch="9" execution_time="18">u = d/norm(d)</command>
+<command error="true" execution_time="1563" repeat="7">exploreWorkspace</command>
+<command execution_time="9">H</command>
+<command execution_time="13">u</command>
+<command execution_time="11">v</command>
+<command execution_time="9">[u,v,w]</command>
+<command execution_time="10">dot(u,v)</command>
+<command error="true" execution_time="7">dot(u,w</command>
+<command execution_time="11">dot(u,w)</command>
+<command execution_time="8">clc</command>
+<command execution_time="9">xyBrain = [2,1]</command>
+<command execution_time="13">xyBrain = [2;1]</command>
+<command execution_time="7">eps = .1;</command>
+<command execution_time="8">if xyBrain(1) &lt; 0; xyBrain(1) = xyBrain(1) + eps; else xyBrain(1) = xyBrain(1) - eps; end</command>
+<command execution_time="10">xyBrain</command>
+<command execution_time="9">dH = H00</command>
+<command execution_time="10">dH(1:2,4) = dH(1:2,4) + reshape(xyBrain,2,1)</command>
+<command execution_time="12">obj.surface.z(xyBrain(1),xyBrain(2))</command>
+<command execution_time="11">dH(3,4)   = dH(3,4)   + obj.surface.z(xyBrain(1),xyBrain(2))</command>
+<command execution_time="10">d = xyz - dH(1:3,4)</command>
+<command execution_time="10">xyz = H00(1:3,4)</command>
+<command execution_time="11">d = xyz - dH(1:3,4)</command>
+<command execution_time="8">u = d/norm(d)</command>
+<command error="true" execution_time="1528">exploreWorkspace</command>
+<command execution_time="9">eye(4)*[1;2;3;0]</command>
+<command error="true" execution_time="15">[1;2;3;0]*eye(4)</command>
+<command execution_time="12">[1;2;3;0]'*eye(4)</command>
+<command execution_time="8">clc</command>
+<command execution_time="1307" repeat="3">exploreWorkspace</command>
+<command execution_time="9">H</command>
+<command error="true" execution_time="1436" repeat="2">exploreWorkspace</command>
+<command execution_time="12">clc</command>
+<command batch="10">xyBrain = [2;1];</command>
+<command batch="10">xyz(1:2,1) = xyBrain;</command>
+<command batch="10" execution_time="15">xyz(3,1) = obj.surface.z(xyBrain(1),xyBrain(2))</command>
+<command execution_time="8">dxyz = xyz</command>
+<command batch="11">if xyBrain(1) &lt; 0;</command>
+<command batch="11">dxyz = dxyz + [ xyBrain(1)+eps; xyBrain(2); obj.surface.z(xyBrain(1)+eps,xyBrain(2)) ];</command>
+<command batch="11">else</command>
+<command batch="11">dxyz = dxyz + [ xyBrain(1)-eps; xyBrain(2); obj.surface.z(xyBrain(1)-eps,xyBrain(2)) ];</command>
+<command batch="11" execution_time="14">end</command>
+<command execution_time="11">dxyz</command>
+<command batch="12">if xyBrain(1) &lt; 0;</command>
+<command batch="12">dxyz = [ xyBrain(1)+eps; xyBrain(2); obj.surface.z(xyBrain(1)+eps,xyBrain(2)) ];</command>
+<command batch="12">else</command>
+<command batch="12">dxyz = [ xyBrain(1)-eps; xyBrain(2); obj.surface.z(xyBrain(1)-eps,xyBrain(2)) ];</command>
+<command batch="12" execution_time="11">end</command>
+<command execution_time="8">clc</command>
+<command execution_time="9">xyz</command>
+<command execution_time="6">dxyz</command>
+<command execution_time="11">d = xyz - dxyz</command>
+<command execution_time="15">u = d/norm(d)</command>
+<command execution_time="9">[u,v,w]</command>
+<command execution_time="1349" repeat="2">exploreWorkspace</command>
+<command execution_time="10">H00</command>
 </session>
 </history>

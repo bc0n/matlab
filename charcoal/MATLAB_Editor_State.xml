@@ -7,4 +7,27 @@
          </FoldType>
       </CodeFolds>
    </File>
+   <File absPath="C:\Users\ben\Box Sync\20170130_oct_cageBisectMirror_sw" lastWrittenTime="1486082376720" name="cageBisect_linkageTolerance.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="C:\Users\ben\Box Sync\20170131_oct_galvoelbo_sw" lastWrittenTime="1486084037071" name="galvoelbow.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="C:\Users\ben\Box Sync\oct\20170131_oct_galvoelbo_sw" lastWrittenTime="1486762576974" name="GalvoElbow.m">
+      <CodeFolds version="1.0">
+         <FoldType name="function">
+            <Fold endOffset="1985" startOffset="1881" state="collapsed"/>
+            <Fold endOffset="2788" startOffset="2112" state="collapsed"/>
+         </FoldType>
+         <FoldType name="methods">
+            <Fold endOffset="5839" startOffset="4062" state="collapsed"/>
+         </FoldType>
+      </CodeFolds>
+   </File>
+   <File absPath="C:\Users\ben\Box Sync\oct\20170131_oct_galvoelbo_sw" lastWrittenTime="1486762576983" name="Octopus.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="C:\Users\ben\Box Sync\oct\20170131_oct_galvoelbo_sw" lastWrittenTime="1486762576990" name="exploreWorkspace.m">
+      <CodeFolds version="1.0"/>
+   </File>
 </Editor>
