@@ -16,10 +16,9 @@ if strcmp(hname, 'BI7')
             rght = wins(1,:); rght(3) = wins(1,3)/2; rght(1) = rght(1) + wins(1,3)/2;
             maxd = wins(1,:);
         else
-
-                left = wins(2,:); left(3) = wins(2,3)/2;
-                rght = wins(2,:); rght(3) = wins(2,3)/2; rght(1) = rght(1) + wins(2,3)/2;
-                maxd = wins(2,:);
+            left = wins(2,:); left(3) = wins(2,3)/2;
+            rght = wins(2,:); rght(3) = wins(2,3)/2; rght(1) = rght(1) + wins(2,3)/2;
+            maxd = wins(2,:);
         end
     else %single window
         left = [2     2   958   994];
